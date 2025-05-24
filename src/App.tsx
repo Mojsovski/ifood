@@ -1,7 +1,12 @@
+import { HeroUIProvider } from "@heroui/react";
 import Home from "./pages/Home";
 
 function App() {
-  return <Home />;
+  return (
+    <HeroUIProvider>
+      <Home />
+    </HeroUIProvider>
+  );
 }
 
 export default App;
