@@ -14,6 +14,7 @@ function NavbarLayout() {
       maxWidth="full"
       className="py-5 px-10 bg-[#f6f9f8]"
       isBlurred
+      isBordered
       shouldHideOnScroll={false}
     >
       {/* menu 1 */}
@@ -21,7 +22,7 @@ function NavbarLayout() {
         justify="start"
         className="hidden lg:flex flex-wrap text-sm"
       >
-        <p className="max-w-48 break-words text-sm ">
+        <p className="max-w-48 break-words text-sm">
           One of our specialties is our healthy breakfast
         </p>
         <p className="">Healty & Safety</p>
@@ -30,7 +31,7 @@ function NavbarLayout() {
       {/* menu 2 */}
       <NavbarContent justify="center">
         <NavbarItem>
-          <h1 className="font-didot font-bold text-2xl">IFood</h1>
+          <h1 className="font-didot font-bold text-3xl">IFood</h1>
         </NavbarItem>
       </NavbarContent>
 

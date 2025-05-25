@@ -14,7 +14,9 @@ function LandingPageLayout(props: IProps) {
     <>
       <PageHead title={title} />
       <NavbarLayout />
-      <div className="py-10 md:p-6 bg-[#f6f9f8] h-screen">{children}</div>
+      <div className="px-10 md:py-6 md:px-12 bg-[#f6f9f8] h-screen">
+        {children}
+      </div>
     </>
   );
 }
