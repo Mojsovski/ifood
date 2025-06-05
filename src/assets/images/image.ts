@@ -8,6 +8,7 @@ import food7 from "./food7.png";
 import food8 from "./food8.png";
 import food9 from "./food9.png";
 import food10 from "./food10.png";
+import people1 from "./people1.png";
 
 const imageAsset = {
   food1,
@@ -20,6 +21,7 @@ const imageAsset = {
   food8,
   food9,
   food10,
+  people1,
 };
 
 export { imageAsset };

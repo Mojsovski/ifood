@@ -1,10 +1,10 @@
 import LandingPageLayout from "../components/layout/LandingPageLayout/LandingPageLayout";
-import LandingPage from "../components/view/LandingPage/LandingPage";
+import Hero from "../components/view/LandingPage/Hero";
 
 function Home() {
   return (
     <LandingPageLayout title="Ifood">
-      <LandingPage />
+      <Hero />
     </LandingPageLayout>
   );
 }
