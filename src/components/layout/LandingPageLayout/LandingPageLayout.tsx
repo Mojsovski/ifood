@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import PageHead from "../../common/PageHead/PageHead";
 import NavbarLayout from "./NavbarLayout/NavbarLayout";
+import FooterLayout from "./FooterLayout/FooterLayout";
 
 interface IProps {
   title: string;
@@ -14,9 +15,8 @@ function LandingPageLayout(props: IProps) {
     <>
       <PageHead title={title} />
       <NavbarLayout />
-      <div className="px-10 md:py-6 md:px-12 bg-[#f6f9f8] h-screen">
-        {children}
-      </div>
+      <div className="px-10 md:py-6 md:px-12 bg-[#f6f9f8] ">{children}</div>
+      <FooterLayout />
     </>
   );
 }
