@@ -3,7 +3,7 @@ import { Button, Input } from "@heroui/react";
 function FooterLayout() {
   return (
     <div className="px-10 md:px-20 mt-24 mb-5 flex flex-col gap-9">
-      <h1 className="font-didot text-8xl text-center uppercase">
+      <h1 className="font-didot text-5xl md:text-8xl text-center uppercase">
         Let's connect with us
       </h1>
 
