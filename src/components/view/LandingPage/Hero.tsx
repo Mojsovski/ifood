@@ -8,7 +8,7 @@ function Hero() {
       <div className="flex-wrap flex flex-col justify-center items-center ">
         <h1 className=" flex-wrap font-didot uppercase text-6xl md:text-9xl text-center flex items-center justify-center gap-4">
           <span>simple</span>
-          <span className="">
+          <span>
             <Image
               alt="HeroUI hero Image"
               src={imageAsset.food1}
