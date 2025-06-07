@@ -3,11 +3,11 @@ import { imageAsset } from "../../../assets/images/image";
 
 function Experience() {
   return (
-    <div className="h-[630px] px-10  flex relative  justify-between">
+    <div className="md:h-[630px] md:px-10 pb:20 flex flex-col md:flex-row relative ">
       {/* row 1 */}
-      <div className="w-3/4 flex flex-col pr-7">
+      <div className="md:w-3/4 flex flex-col md:pr-7 ">
         <div className="flex pt-20 pb-10 items-center">
-          <h1 className="uppercase font-didot text-8xl text-left leading-tight">
+          <h1 className="uppercase font-didot text-5xl md:text-8xl text-center md:text-left leading-tight">
             experience of real recipes
             <span className="inline-flex items-center ml-2">
               taste
@@ -28,13 +28,13 @@ function Experience() {
             src={imageAsset.food12}
             width={180}
             isBlurred
-            className="object-cover "
+            className="md:w-[180px] w-[280px] object-cover"
           />
           <p className="text-xl ">
             But our menu doesn't stop at breakfast. we also offer a wide range
             of kebab plates
           </p>
-          <div className="w-1/2 flex justify-end">
+          <div className="hidden w-1/2 md:flex justify-end">
             <a href="/" className=" underline text-xl ">
               View All
             </a>
@@ -42,13 +42,11 @@ function Experience() {
         </div>
       </div>
       {/* row 2 */}
-      <div className="w-[650px] flex justify-center items-center ">
+      <div className="md:w-[650px] flex justify-center items-center ">
         <Image
-          width={500}
-          height={500}
           src={imageAsset.food2}
           isBlurred
-          className="object-cover"
+          className="w-[200px] md:w-[500px] object-cover"
         />
       </div>
     </div>

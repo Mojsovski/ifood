@@ -68,7 +68,7 @@ function Hero() {
               <Image
                 src={imageAsset.food9}
                 isBlurred
-                className="md:w-[400px] w-[150px] scale-x-[-1] object-cover"
+                className="w-[150px] scale-x-[-1] object-cover"
               />
             </div>
           </div>
