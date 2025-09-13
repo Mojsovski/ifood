@@ -7,15 +7,14 @@ function FooterLayout() {
         Let's connect with us
       </h1>
 
-      <div className="flex justify-center items-center gap-5">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-5">
         <Input
           placeholder="enter your email"
           variant="bordered"
           radius="full"
           size="lg"
-          className="w-[400px] "
+          className="md:w-[400px] "
           type="email"
-          fullWidth
         />
         <Button
           radius="full"
@@ -81,7 +80,6 @@ function FooterLayout() {
         </div>
       </div>
       <p className="text-center">
-        {" "}
         Copyright © 2025 ifood | Mojsovski. All right reserved
       </p>
     </div>

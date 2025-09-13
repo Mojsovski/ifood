@@ -42,7 +42,7 @@ function Hero() {
               </div>
               <div className="size-28 md:size-40 rounded-full bg-slate-950 flex justify-center items-center relative p-5  ">
                 <p className="text-sm md:text-base text-white text-center font-light ">
-                  Expole Dishes
+                  Explore Dishes
                 </p>
               </div>
             </div>
