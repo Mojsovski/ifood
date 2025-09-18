@@ -1,5 +1,7 @@
 import { Image } from "@heroui/react";
 import { imageAsset } from "../../../assets/images/image";
+import { MENU_ITEMS } from "./LandingPage.constans";
+import { LuArrowUpRight } from "react-icons/lu";
 
 function Category() {
   return (
@@ -17,15 +19,25 @@ function Category() {
         <Image
           src={imageAsset.food4}
           isBlurred
-          className="w-[200px] md:w-[400px] object-cover"
+          className="w-[200px] md:w-[300px] object-cover"
         />
         <div>
-          <div className=""></div>
+          <div className="flex flex-col">
+            {MENU_ITEMS.map((item) => (
+              <div className="w-[500px] ">
+                <div className="my-3 relative">
+                  <p className="text-xl ">{item.label}</p>
+                  <LuArrowUpRight className="absolute size-9 -top-3 right-0" />
+                </div>
+                <hr className="border-t-2 border-black" />
+              </div>
+            ))}
+          </div>
         </div>
         <Image
           src={imageAsset.food5}
           isBlurred
-          className="w-[200px] md:w-[400px] object-cover"
+          className="w-[200px] md:w-[300px] object-cover"
         />
       </div>
     </div>
