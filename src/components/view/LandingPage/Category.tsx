@@ -1,4 +1,4 @@
-import { Image } from "@heroui/react";
+import { Image, Button } from "@heroui/react";
 import { imageAsset } from "../../../assets/images/image";
 import { MENU_ITEMS } from "./LandingPage.constans";
 import { LuArrowUpRight } from "react-icons/lu";
@@ -54,9 +54,9 @@ function Category() {
           />
         </div>
         <div className="w-3/6 flex justify-center">
-          <button className="size-28 md:size-40 rounded-full bg-slate-950 hover:bg-slate-800 flex justify-center items-center relative p-5 text-sm md:text-base text-white text-center font-light ">
+          <Button className="size-28 md:size-40 rounded-full bg-slate-950 hover:bg-slate-800 flex justify-center items-center relative p-5 text-sm md:text-base text-white text-center font-light ">
             Explore More
-          </button>
+          </Button>
         </div>
       </div>
     </div>
