@@ -3,9 +3,9 @@ import { imageAsset } from "../../../assets/images/image";
 
 function Hero() {
   return (
-    <div className="w-full h-full flex flex-col relative pt-16 md:pb-3 pb-10">
+    <div className="flex flex-col relative pt-16 md:pb-3 ">
       {/* hero 1 */}
-      <div className="flex-wrap flex flex-col justify-center items-center ">
+      <div className="flex-wrap flex flex-col justify-center items-center mb-5">
         <h1 className=" flex-wrap font-didot uppercase text-6xl md:text-9xl text-center flex items-center justify-center gap-4">
           <span>simple</span>
           <span>
