@@ -24,8 +24,8 @@ function Category() {
           className="w-[200px] md:w-[300px] object-cover"
         />
         <div className="flex flex-col">
-          {MENU_ITEMS.map((item) => (
-            <div className="w-[500px] ">
+          {MENU_ITEMS.map((item, index) => (
+            <div key={index} className="w-[500px] ">
               <div className="my-3 relative">
                 <p className="text-xl ">{item.label}</p>
                 <LuArrowUpRight className="absolute size-9 -top-3 right-0" />
