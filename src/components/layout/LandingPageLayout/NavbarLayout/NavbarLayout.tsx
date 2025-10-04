@@ -12,7 +12,7 @@ function NavbarLayout() {
   return (
     <Navbar
       maxWidth="full"
-      className="py-5 px-10 bg-[#f6f9f8]"
+      className="py-5 px-10 bg-[#f6f9f8] z-50"
       isBlurred
       isBordered
       shouldHideOnScroll={false}

@@ -40,7 +40,7 @@ function Explore() {
             isBlurred
             className="w-[200px] md:w-[500px] object-cover"
           />
-          <div className="absolute z-50 bottom-10 -right-10">
+          <div className="absolute z-10 bottom-10 -right-10">
             <Button className="size-28 md:size-40 rounded-full bg-slate-950 hover:bg-slate-800 flex justify-center items-center p-5 text-sm md:text-base text-white text-center font-light ">
               View Next
             </Button>
