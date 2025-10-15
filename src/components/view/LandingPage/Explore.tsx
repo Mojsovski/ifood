@@ -4,7 +4,7 @@ import { LuArrowDownRight } from "react-icons/lu";
 
 function Explore() {
   return (
-    <div className="md:px-5 lg:px-10 my-24">
+    <div className="md:px-5 lg:px-10 py-20">
       {/* col 1 */}
       <div className="flex flex-col justify-center items-center mb-20 gap-5">
         <h2 className=" font-didot text-5xl md:text-8xl uppercase text-center">

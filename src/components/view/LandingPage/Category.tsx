@@ -5,7 +5,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 function Category() {
   return (
-    <div className="md:px-10 py-24 ">
+    <div className="md:px-10 py-20 ">
       {/* row 1 */}
       <div className="flex flex-col mb-8 md:mb-20 gap-3">
         <div className="flex md:justify-between items-center">
